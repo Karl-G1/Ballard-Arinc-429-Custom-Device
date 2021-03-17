@@ -32,7 +32,7 @@
 
 <!--***************************************	Rx Channels ***************************************-->
 <!--Channel 0: Rx -->
-	<bti:channel429 ID="0" name="CH0" hardwareChannel="0" monitorMode="Selective" selfTestBus="true">
+	<bti:channel429 ID="0" name="CH0" hardwareChannel="0" monitorMode="Selective" selfTestBus="false">
 		<bti:rxChannel speedKHz="100">
 			<bti:labels>
 				<bti:label ID="134" name="label 134" labelDecimal="134" monitor="true"/>			
@@ -44,7 +44,7 @@
 <!--*******************************************************************************************-->
 
 <!--***************************************	Tx Channels ***************************************-->
-	<bti:channel429 ID="28" name="CH28" hardwareChannel="28" selfTestBus="true">
+	<bti:channel429 ID="24" name="CH24" hardwareChannel="24" selfTestBus="false">
 		<bti:txChannel speedKHz="100" scheduleMode="Rate" scheduleBuildUnit="Microsecond" highVolt="10" lowVolt="-10" nullVolt="0" cmBiasVolt="0" highRiseTime="1.8" lowRiseTime="1.8">
 			<bti:messages>
 				<bti:message ID="134" name="label 134" messageBufferIDRef="128" minRate="1000" maxRate="1000" labelDecimal="134">
